@@ -6,7 +6,6 @@ import com.github.hackapp.manager.FrameManager;
 import com.github.hackapp.swing.MainWindowFrame;
 
 public class main {
-
 	@SuppressWarnings("all")
 	public static void main(String[] args){
 		EventQueue.invokeLater(new Runnable() {
