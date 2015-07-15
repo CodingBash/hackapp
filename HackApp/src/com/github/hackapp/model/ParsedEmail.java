@@ -1,5 +1,15 @@
 package com.github.hackapp.model;
 
+/**
+ * <h1> Parsed Email model </h1>
+ * 
+ * An instance of this must be populated from the model factory.
+ * 
+ * @author bbecerr
+ * 
+ * @see com.github.hackapp.factory.EmailFactory
+ *
+ */
 public class ParsedEmail {
 	/*Deleted unused fields after project */
 	//private AttachmentChunks[] msgAttachments;

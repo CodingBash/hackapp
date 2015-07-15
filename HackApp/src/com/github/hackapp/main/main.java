@@ -3,7 +3,7 @@ package com.github.hackapp.main;
 import java.awt.EventQueue;
 
 import com.github.hackapp.manager.FrameManager;
-import com.github.hackapp.swing.MainWindow;
+import com.github.hackapp.swing.MainWindowFrame;
 
 public class main {
 
@@ -12,7 +12,7 @@ public class main {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					MainWindow frame = new MainWindow();
+					MainWindowFrame frame = new MainWindowFrame();
 					FrameManager.addFrame("main", frame);
 					FrameManager.setInitialFrame("main");
 				} catch (Exception e) {
